@@ -82,7 +82,10 @@ public class HW4 {
 			player2.increaseChips(p2Bet);
 		}else{
 			System.out.println("Need another game");
+			
 		}
+		System.out.println("Total Value for Player1:"+player1.getTotalValue());
+		System.out.println("Total Value for Player2:"+player2.getTotalValue());
 		System.out.println(player1.getName()+" has "+player1.getCurrentChips()+" chips");
 		System.out.println(player2.getName()+" has "+player2.getCurrentChips()+" chips");
 
